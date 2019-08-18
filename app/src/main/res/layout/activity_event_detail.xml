@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".EventDetail">
+
+    <TextView
+        android:id="@+id/detail_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#02FFDC"
+        android:text="@string/detail_heading"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <ListView
+        android:id="@+id/eventDetailList"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:clickable="false"
+        android:background="@drawable/list_border"
+        android:longClickable="false">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/description_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#02FFDC"
+        android:text="@string/description_header"
+
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/imageHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#02FFDC"
+        android:text="Image"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAllCaps="true"/>
+
+    <ImageView
+        android:id="@+id/eventImage"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:contentDescription="EventImage"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btnJoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/button_join"/>
+</LinearLayout>

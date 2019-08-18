@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "957088212084",
+    "firebase_url": "https://charibro.firebaseio.com",
+    "project_id": "charibro",
+    "storage_bucket": "charibro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957088212084:android:928527e464e3ad85",
+        "android_client_info": {
+          "package_name": "com.example.assignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957088212084-98me6ud1cel9mlplrhpnd9r6vun6qfok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.assignment",
+            "certificate_hash": "08c728c2b4830ccc5d9c25e021c83d8b2e47cbed"
+          }
+        },
+        {
+          "client_id": "957088212084-41cv0p88d4qsi5pnkkubuftpfqk02rmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4L56iqD2fHa-dGvQo_w42WdlHiFUZhXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957088212084-41cv0p88d4qsi5pnkkubuftpfqk02rmq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
